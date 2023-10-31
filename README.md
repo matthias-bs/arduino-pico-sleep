@@ -48,14 +48,16 @@ In some cases, it is useful to align the wake-up time to the wall clock time, e.
 ## Notes
 
 ### General
-https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
-https://datasheets.raspberrypi.com/rp2040/rp2040-product-brief.pdf
-https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
-https://www.adafruit.com/product/4884
-https://learn.adafruit.com/adafruit-feather-rp2040-pico/
-https://github.com/earlephilhower/arduino-pico
-https://github.com/raspberrypi/pico-sdk
-https://arduino-pico.readthedocs.io/en/latest/index.html
+- https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
+- https://datasheets.raspberrypi.com/rp2040/rp2040-product-brief.pdf
+- https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf
+- https://github.com/raspberrypi/pico-sdk
+- https://github.com/earlephilhower/arduino-pico
+- https://arduino-pico.readthedocs.io/en/latest/index.html
+
+### Adafruit Feather RP2040
+- https://www.adafruit.com/product/4884
+- https://learn.adafruit.com/adafruit-feather-rp2040-pico/
 
 ### Sleep Mode
   - Power-saving possibilities using the arduino-pico core
