@@ -1,7 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////////
-// BresserWeatherSensorTTN.ino
+// arduino-pico-sleep.ino
 // 
+// Example for using sleep mode with wake-up by RTC similar to ESP32.
 //
+// - Allows to specify sleep duration (instead of RP2040' wake-up date & time)
+// - Optional restart after wake-up
+// - Retention of some variables and RTC time during restart 
 //
 // Based on:
 // ---------
@@ -39,12 +43,13 @@
 //
 // History:
 //
-// 2023131 Created from BresserWeatherSensorTTN
+// 20231031 Created from BresserWeatherSensorTTN
 //
 // Notes:
 // - settimeofday()/gettimeofday() must be used to access the ESP32's RTC time
 // - Arduino ESP32 package has built-in time zone handling, see 
 //   https://github.com/SensorsIot/NTP-time-for-ESP8266-and-ESP32/blob/master/NTP_Example/NTP_Example.ino
+//   This is also provided by Arduino-pico.
 //
 ///////////////////////////////////////////////////////////////////////////////
 /*! \file arduino-pico-sleep.ino */ 
