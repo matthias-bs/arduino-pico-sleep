@@ -1,5 +1,5 @@
 # arduino-pico-sleep
-Example sketch for using sleep mode with Arduino Pico RP2040
+Example sketch for using sleep mode (wake-up by RTC) with Arduino Pico RP2040
 
 This example allows to implement a sleep function similar to the ESP32's.
 See the differences below:
