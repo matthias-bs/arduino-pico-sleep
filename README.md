@@ -84,7 +84,8 @@ In some cases, it is useful to align the wake-up time to the wall clock time, e.
   - restart()/reboot(): 
     - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/cores/rp2040/RP2040Support.h
     - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-    - bool watchdog_caused_reboot(void); -> /home/mp/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
+    - bool watchdog_caused_reboot(void); 
+      - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2_common/hardware_watchdog/include/hardware/watchdog.h
 
 ### RTC
   - https://www.raspberrypi.com/documentation/pico-sdk/hardware.html#hardware_rtc
