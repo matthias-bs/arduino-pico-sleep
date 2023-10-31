@@ -90,9 +90,9 @@ In some cases, it is useful to align the wake-up time to the wall clock time, e.
   - https://www.raspberrypi.com/documentation/pico-sdk/hardware.html#hardware_rtc
   - Setting/getting RTC time
     https://github.com/raspberrypi/pico-examples/blob/master/rtc/hello_rtc/hello_rtc.c
-  - ESP:
-    rtc.setTime(time_t)
-    time_t rtc.getLocalEpoch()
+  - ESP32Time:
+    - rtc.setTime(time_t)
+    - time_t rtc.getLocalEpoch()
   - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h
   - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h
   - ~/.arduino15/packages/rp2040/hardware/rp2040/3.6.0/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
