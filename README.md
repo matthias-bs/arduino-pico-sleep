@@ -10,8 +10,9 @@ See the differences below:
 |   2 | Wake-up behaviour             | Restart sketch | Continue sketch            |
 |   3 | RTC reset by restart          | No             | Yes                        |
 |   4 | Retain data during sleep mode | RTC RAM        | Yes                        |
-|   5 | Retain data during restart    | RTC RAM        | Watchdog scratch registers |
+|   5 | Retain data during restart    | RTC RAM        | a) Watchdog scratch registers<br>b) uninitialized RAM section <sup>1</sup>|
 
+1) see [rp2_common/pico_platform/include/pico/platform.h: Section attribute macro for data that is to be left uninitialized](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/pico_platform/include/pico/platform.h#L220)
 
 ## RP2040 Workarounds/Solutions
 
