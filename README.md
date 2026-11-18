@@ -1,4 +1,5 @@
 # arduino-pico-sleep
+
 Example sketch for using sleep mode (wake-up by RTC) with Arduino Pico RP2040
 
 This example allows to implement a sleep function similar to the ESP32's.
@@ -13,6 +14,10 @@ See the differences below:
 |   5 | Retain data during restart    | RTC RAM        | a) Watchdog scratch registers<br>b) uninitialized RAM section <sup>1</sup>|
 
 1) see [rp2_common/pico_platform/include/pico/platform.h: Section attribute macro for data that is to be left uninitialized](https://github.com/raspberrypi/pico-sdk/blob/6a7db34ff63345a7badec79ebea3aaef1712f374/src/rp2_common/pico_platform/include/pico/platform.h#L220)
+
+> [!NOTE]
+> [Arduino-Pico](https://github.com/earlephilhower/arduino-pico) now provides a [LowPower](https://arduino-pico.readthedocs.io/en/latest/lowpower.html) library.
+> This is currently not used in this repository, but definitely worth trying.
 
 ## RP2040 Workarounds/Solutions
 
